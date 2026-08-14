@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     price: 2950,
     compareAtPrice: 3200,
     images: [
-      'https://images.unsplash.com/photo-1547996160-01ff2474fe6e?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop'
     ],
     description: 'A masterpiece in dark minimalism. Features a DLC (Diamond-Like Carbon) coated case, exhibition caseback exposing the custom skeletonized gold rotor, and an understated matte black dial.',

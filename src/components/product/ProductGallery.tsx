@@ -29,14 +29,13 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({ images, productN
         <img
           src={activeImage}
           alt={productName}
-          className={`w-full h-full object-cover transition-transform duration-300 ${
-            isZoomed ? 'scale-150' : 'scale-100'
-          }`}
+          className={`w-full h-full object-cover transition-transform duration-300 ${isZoomed ? 'scale-150' : 'scale-100'
+            }`}
           style={
             isZoomed
               ? {
-                  transformOrigin: `${mousePos.x}% ${mousePos.y}%`,
-                }
+                transformOrigin: `${mousePos.x}% ${mousePos.y}%`,
+              }
               : undefined
           }
         />
@@ -53,11 +52,10 @@ export const ProductGallery: React.FC<ProductGalleryProps> = ({ images, productN
             <button
               key={index}
               onClick={() => setActiveImage(img)}
-              className={`aspect-square w-full bg-[#F5F2EC] border transition-all duration-300 ${
-                activeImage === img
+              className={`aspect-square w-full bg-[#F5F2EC] border transition-all duration-300 ${activeImage === img
                   ? 'border-[#B8924A] shadow-md'
                   : 'border-[#e5e0d8] opacity-70 hover:opacity-100'
-              }`}
+                }`}
             >
               <img src={img} alt={`${productName} view ${index + 1}`} className="w-full h-full object-cover" />
             </button>
